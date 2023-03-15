@@ -1,0 +1,59 @@
+{
+  "primitives": {
+    "color": {
+      "prime": {
+        "value": "#f500cc",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#3600fc",
+        "type": "color"
+      }
+    }
+  },
+  "global": {
+    "color": {
+      "brand": {
+        "value": "{color.prime}",
+        "type": "color"
+      },
+      "button-label": {
+        "value": "{color.secondary}",
+        "type": "color"
+      }
+    },
+    "border-radius": {
+      "small": {
+        "value": "4",
+        "type": "borderRadius"
+      }
+    },
+    "spacing": {
+      "medium": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "20",
+        "type": "spacing"
+      }
+    },
+    "typography": {
+      "button-label": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "Bold",
+          "lineHeight": "100%",
+          "fontSize": "16"
+        },
+        "type": "typography"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
